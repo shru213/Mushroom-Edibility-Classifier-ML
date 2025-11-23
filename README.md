@@ -35,4 +35,21 @@ The dataset contains **54,035 instances** with 9 features.
 ## 🔑 Key Findings
 * **Stem Width** and **Stem Height** proved to be significant indicators of a mushroom's class.
 * While Decision Trees achieved the highest raw accuracy, Gradient Boosting provided a robust alternative with high generalizability.
-* Hyperparameter tuning successfully improved
+* Hyperparameter tuning successfully improved the Gradient Boosting f1-score and overall accuracy.
+
+## 💻 Technologies Used
+* Python
+* Pandas
+* Matplotlib (Visualization)
+* Scikit-learn (Machine Learning)
+
+## 🚀 How to Run
+1.  Clone the repository.
+2.  Install dependencies:
+    ```bash
+    pip install pandas matplotlib scikit-learn
+    ```
+3.  Run the Jupyter Notebook:
+    ```bash
+    jupyter notebook "Mushroom Edibility Classifier.ipynb"
+    ```
